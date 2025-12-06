@@ -1,0 +1,77 @@
+:root {
+    font-size: clamp(0.875em, 1.5vw, 1.125em);
+
+    /* Font */
+    --font-family: "Poppins", sans-serif;
+
+    /* Spacing */
+    --button-padding: 10px 20px;
+    --border-radius: 8px;
+    --padding-medium: 1.5em;
+    --padding-small: 1em;
+    --padding-tiny: .5em;
+
+    /*--------------------------------------------------*/
+    /* Colors */
+    --text-color: #2c2c2c;
+    --background-color: #f7f7f2;
+    --accent-cta: #a10018;
+    --accent-primary-decoration: #ffb951;
+    --accent-secondary-decoration: #81c7f0;
+    --accent-tertiary-decoration: #a0ff8e;
+    --accent-secondary-decoration-transperent: color-mix(in srgb, var(--accent-secondary-decoration), transparent 50%);
+}
+
+h1,
+h2,
+p,
+a,
+input,
+textarea,
+small {
+    font-family: var(--font-family);
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-style: italic;
+}
+
+p,
+input,
+textarea {
+    font-weight: 400;
+}
+
+p,
+a,
+button,
+input,
+textarea {
+    font-size: 1rem;
+}
+
+small,
+figcaption,
+caption {
+    font-size: 0.7em;
+}
+
+figcaption,
+caption {
+    font-weight: 200;
+    font-style: italic;
+}
