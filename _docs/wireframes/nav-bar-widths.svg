@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="84.916405mm"
+   height="29.717297mm"
+   viewBox="0 0 84.916405 29.717297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="nav-bar-widths.svg"
+   inkscape:export-filename="nav-bar-widths.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="2.1665544"
+     inkscape:cx="164.77777"
+     inkscape:cy="42.463738"
+     inkscape:window-width="3440"
+     inkscape:window-height="1417"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23-5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.078307,-115.25167)">
+    <rect
+       style="fill:none;stroke:#1a1a1a;stroke-width:0.352778;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect2"
+       width="79.647224"
+       height="9.3377151"
+       x="47.254696"
+       y="126.38321" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect13"
+       width="17.700001"
+       height="3"
+       x="48.918308"
+       y="130.34756" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect14"
+       width="17.700001"
+       height="3"
+       x="68.458298"
+       y="130.34756" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect15"
+       width="17.700001"
+       height="3"
+       x="87.998299"
+       y="130.34756" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect16"
+       width="17.700001"
+       height="3"
+       x="107.53831"
+       y="130.34756" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.66566px;line-height:1;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       x="67.22905"
+       y="129.25125"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="stroke-width:0.352778"
+         x="67.22905"
+         y="129.25125">nav-bar/top-level navigation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.27484px;line-height:1;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="87.081512"
+       y="118.3894"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.352778"
+         x="87.081512"
+         y="118.3894">800 px</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.27484px;line-height:1;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="106.56487"
+       y="143.85751"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.352778"
+         x="106.56487"
+         y="143.85751">18.4 px</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.27484px;line-height:1;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="57.714874"
+       y="142.81125"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.352778"
+         x="57.714874"
+         y="142.81125">177 px</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="M 47.078307,119.8014 H 126.90192"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.353;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1, 2;stroke-dashoffset:0;marker-start:url(#Stop);marker-end:url(#Stop);paint-order:markers stroke fill"
+       d="M 47.261102,119.8014 H 126.90192"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.352999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.999999, 2;stroke-dashoffset:0;marker-start:url(#Stop-4);marker-end:url(#Stop-4);paint-order:markers stroke fill"
+       d="M 49.080516,138.30855 H 66.456102"
+       id="path4-7" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.352999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Stop-4);marker-end:url(#Stop-4);paint-order:markers stroke fill"
+       d="m 105.6983,138.30855 h 1.84001"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.352999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Stop-4);marker-end:url(#Stop-4);paint-order:markers stroke fill"
+       d="m 125.0618,138.30855 h 1.84001"
+       id="path6" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.27484px;line-height:1;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ff0000;stroke:none;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="125.18488"
+       y="143.85751"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:0.352778"
+         x="125.18488"
+         y="143.85751">18.4 px</tspan></text>
+  </g>
+</svg>
