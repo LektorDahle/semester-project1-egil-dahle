@@ -1,0 +1,120 @@
+.main {
+    grid-area: main;
+}
+
+.second {
+    grid-area: second;
+}
+
+.third {
+    grid-area: third;
+}
+
+.fourth {
+    grid-area: fourth;
+}
+
+main {
+    display: grid;
+    margin: 5em clamp(10px, 20vw, 500px);
+    grid-template-areas:
+        "main main"
+        "second third"
+        "fourth fourth";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1.5em;
+}
+
+.card-wrapper-large, .card-wrapper-medium{
+
+    padding: 1.5em;
+}
+
+.card-wrapper-large {
+    display: grid;
+    grid-template-areas:
+        "image h1"
+        "image p1"
+        "image p2";
+    gap: 1.5em;
+    width: 100%;
+}
+
+.card-image-large {
+    grid-area: image;
+    width: clamp(100px, 30vw, 300px);
+    object-fit: contain;
+}
+
+.welcome-title {
+    grid-area: h1;
+}
+
+.welcome-p1 {
+    grid-area: p1;
+}
+
+.welcome-p2 {
+    grid-area: p2;
+}
+
+.card-wrapper-medium {
+    display: grid;
+    width: 100%;
+}
+
+.card-blue {
+    background: var(--accent-secondary-decoration);
+}
+
+.card-orange {
+    background: var(--accent-primary-decoration);
+}
+
+.card-green {
+    background: var(--accent-tertiary-decoration);
+}
+
+@media (max-width: 1600px) {
+    .card-wrapper-large {
+        grid-template-areas:
+            "image h1"
+            "image p1"
+            "p2 p2";
+    }
+}
+
+
+@media (max-width: 1200px) {
+    main {
+        grid-template-areas:
+            "main"
+            "second"
+            "third"
+            "fourth";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 1.5em;
+    }
+
+    .card-wrapper-large {
+        grid-template-areas:
+            "image h1"
+            "p1 p1"
+            "p2 p2";
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .card-wrapper-large {
+        grid-template-areas:
+            "h1"
+            "image"
+            "p1"
+            "p2";
+        justify-items: center;
+    }
+}

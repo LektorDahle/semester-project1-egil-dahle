@@ -21,12 +21,3 @@ body {
     grid-template-rows: auto auto 1fr auto;
     background-color: var(--background-color);
 }
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding: var(--padding-large) 0;
-    justify-content: center;
-}
-
-
