@@ -29,7 +29,8 @@ p,
 a,
 input,
 textarea,
-small {
+small,
+select {
     font-family: var(--font-family);
     font-style: normal;
 }
@@ -62,7 +63,8 @@ p,
 a,
 button,
 input,
-textarea {
+textarea,
+select {
     font-size: 1rem;
 }
 
@@ -80,4 +82,22 @@ caption {
 
 p {
     padding-bottom: .75em;
+}
+
+a,
+select {
+    color: var(--font-color);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    padding-bottom: 30px;
+    /* Ensuring the touch-area is more than 44x44 px*/
+}
+
+.text-inline-image {
+    height: 1.5em;
+    vertical-align: middle
 }

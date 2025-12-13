@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style/typography-and-color.css">
     <link rel="stylesheet" href="./style/base.css">
     <link rel="stylesheet" href="./style/header.css">
+
     <!-- Font embed codes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,16 +24,29 @@
 <body>
     <header>
         <div class="logoImageWrapper">
-            <a href="./"><img src="./images/logo/community-science-museum-logo.svg"></a>
+            <a href="./"><img class="image-header-logo" src="./images/logo/community-science-museum-logo-with-name.svg"
+                    alt="Community Science Museum Logo"></a>
         </div>
         <div class="header-info">
-            <p>Open Today <strong>09:00-18:00</strong></p> <a>About Us</a> <a>English</a>
+            <p id="open-information">Open Today <strong>09:00-18:00</strong></p>
+            <a href="./about-us/">
+                <img class="text-inline-image" src="./images/logo/community-science-museum-logo.svg" alt=" ">
+                About Us
+            </a>
+            <div class="select-wrapper">
+                <select id="handlinger" name="handlinger">
+                    <option value="English">English</option>
+                    <option value="Bokmål">Bokmål</option>
+                    <option value="Nynorsk">Nynorsk</option>
+                </select>
+            </div>
         </div>
     </header>
     <nav>te</nav>
     <main>
         <article class="card-wrapper-large">
-            <img class="card-image-large" src="images/illustrations/heart-dissection.webp">
+            <img class="card-image-large" src="images/illustrations/heart-dissection.webp"
+                alt="Disected heart with a romantic heart-shape cut out on it">
             <h1 class="welcome-title">Velcome to Community Science Museum</h1>
 
             <p class="welcome-p1">Step inside a world built for explorers of all ages, from stargazers and inventors to
@@ -45,31 +59,31 @@
                 new eyes.</p>
         </article>
         <article class="card-wrapper-medium">
-        <h2>Visit Us today!</h2>
-        <p>Let us Explore together</p>
+            <h2>Visit Us today!</h2>
+            <p>Let us Explore together</p>
 
-        <p>Visiting hours:
-            Monday: Closed
-            Tuesday - Thursday: 10:00-16:00
-            Friday: 10:00-19:00
-            Saturday: 09:00-16:00
-            Sunday: 09:00-13:00
+            <p>Visiting hours:
+                Monday: Closed
+                Tuesday - Thursday: 10:00-16:00
+                Friday: 10:00-19:00
+                Saturday: 09:00-16:00
+                Sunday: 09:00-13:00
 
-            For more information check out our tickets page or our plan your visit page.</p>
+                For more information check out our tickets page or our plan your visit page.</p>
 
         </article>
         <article class="card-wrapper-medium">
-        <h2>Visit Us today!</h2>
-        <p>Let us Explore together</p>
+            <h2>Visit Us today!</h2>
+            <p>Let us Explore together</p>
 
-        <p>Visiting hours:
-            Monday: Closed
-            Tuesday - Thursday: 10:00-16:00
-            Friday: 10:00-19:00
-            Saturday: 09:00-16:00
-            Sunday: 09:00-13:00
+            <p>Visiting hours:
+                Monday: Closed
+                Tuesday - Thursday: 10:00-16:00
+                Friday: 10:00-19:00
+                Saturday: 09:00-16:00
+                Sunday: 09:00-13:00
 
-            For more information check out our tickets page or our plan your visit page.</p>
+                For more information check out our tickets page or our plan your visit page.</p>
 
         </article>
     </main>
