@@ -12,6 +12,7 @@ header {
 }
 
 .logoImageWrapper {
+    z-index: 20;
     display: flex;
     justify-content: center;
     height: 8em;
