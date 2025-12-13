@@ -21,3 +21,8 @@ body {
     grid-template-rows: auto auto 1fr auto;
     background-color: var(--background-color);
 }
+
+footer a, main a {
+    text-decoration: underline;
+    color: var(--accent-cta);
+}

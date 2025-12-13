@@ -26,42 +26,30 @@ main {
     gap: 1.5em;
 }
 
-.card-wrapper-large, .card-wrapper-medium{
-
+.card-wrapper,
+.shop {
     padding: 1.5em;
-}
-
-.card-wrapper-large {
-    display: grid;
-    grid-template-areas:
-        "image h1"
-        "image p1"
-        "image p2";
-    gap: 1.5em;
     width: 100%;
+    align-content: start;
 }
 
-.card-image-large {
+
+
+.card-image {
+    float: left;
     grid-area: image;
-    width: clamp(100px, 30vw, 300px);
+    padding: 1.5em;
+    width: clamp(100px, 20vw, 300px);
     object-fit: contain;
+    justify-self: center;
 }
 
-.welcome-title {
-    grid-area: h1;
+.medium {
+    width: 250px;
 }
 
-.welcome-p1 {
-    grid-area: p1;
-}
-
-.welcome-p2 {
-    grid-area: p2;
-}
-
-.card-wrapper-medium {
-    display: grid;
-    width: 100%;
+.large {
+    width: 300px;
 }
 
 .card-blue {
@@ -76,15 +64,48 @@ main {
     background: var(--accent-tertiary-decoration);
 }
 
-@media (max-width: 1600px) {
-    .card-wrapper-large {
-        grid-template-areas:
-            "image h1"
-            "image p1"
-            "p2 p2";
-    }
+.bottom-force {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 1.5em;
 }
 
+.title {
+    grid-area: h1;
+    padding-top: 1.5em;
+}
+
+.p1 {
+    grid-area: p1;
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.shop>img {
+    width: 85%;
+    object-fit: contain;
+    justify-self: center;
+}
+
+.two-columns {
+    padding-top: 1.5em;
+    grid-column: span 2;
+}
+
+@media (max-width: 1400px) {
+    .shop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 @media (max-width: 1200px) {
     main {
@@ -97,24 +118,35 @@ main {
         grid-template-rows: auto auto auto auto;
         gap: 1.5em;
     }
-
-    .card-wrapper-large {
-        grid-template-areas:
-            "image h1"
-            "p1 p1"
-            "p2 p2";
-        grid-template-columns: 1fr;
-    }
 }
 
-
-@media (max-width: 800px) {
-    .card-wrapper-large {
+@media (max-width: 1000px) {
+    .card-wrapper {
+        display: grid;
         grid-template-areas:
             "h1"
             "image"
             "p1"
             "p2";
-        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .medium {
+        width: 300px;
+    }
+
+    .shop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .card-image {
+        width: 200px;
+    }
+
+    .shop {
+        grid-template-columns: 1fr;
     }
 }
