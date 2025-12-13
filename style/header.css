@@ -11,10 +11,6 @@ header {
     position: relative;
 }
 
-nav {
-    background: var(--accent-primary-decoration);
-}
-
 .logoImageWrapper {
     display: flex;
     justify-content: center;
@@ -82,6 +78,28 @@ select {
     appearance: none;
 }
 
+.about-us-url {
+    padding-bottom: 30px;
+    /* Ensuring the touch-area is more than 44x44 px*/
+}
+
+
+nav {
+    background: var(--accent-primary-decoration);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav>a {
+    display: flex;
+    height: 60px;
+    min-width: 60px;
+    align-items: center;
+    background: var(--accent-secondary-decoration);
+    padding: 0 1em;
+    margin: .75em 0;
+}
+
 @media (max-width: 1400px) {
     .header-info {
         padding: 1em 2em 1em 1em;
@@ -113,6 +131,13 @@ select {
     .logoImageWrapper {
         margin-top: 1em;
     }
+
+    a,
+    #open-information,
+    .select-wrapper {
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -123,6 +148,15 @@ select {
 
 @media (max-width: 400px) {
     #open-information {
+        display: none;
+    }
+
+    .toplevel-menu {
+        content: none;
+        height: 4em;
+    }
+
+    .toplevel-menu>a {
         display: none;
     }
 }

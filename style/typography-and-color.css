@@ -92,11 +92,6 @@ select {
     cursor: pointer;
 }
 
-a {
-    padding-bottom: 30px;
-    /* Ensuring the touch-area is more than 44x44 px*/
-}
-
 .text-inline-image {
     height: 1.5em;
     vertical-align: middle
