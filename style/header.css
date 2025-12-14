@@ -1,12 +1,12 @@
 header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     background-image: url(../images/header-images/frontpage.webp);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 12em;
+
     padding: var(--padding-small);
     position: relative;
 }
@@ -87,18 +87,80 @@ select {
 
 nav {
     background: var(--accent-primary-decoration);
-    display: flex;
-    justify-content: space-evenly;
 }
 
-nav>a {
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav>ul>li>a {
     display: flex;
     height: 60px;
-    min-width: 60px;
+    min-width: 10em;
     align-items: center;
+    justify-content: center;
     background: var(--accent-secondary-decoration);
     padding: 0 1em;
     margin: .75em 0;
+}
+
+
+
+.nav-wrapper>ul>li {
+    z-index: 1;
+    background: var(--background-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .25);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+}
+
+#hamburger-menu {
+    display: none;
+    position: relative;
+    padding:.5em;
+}
+
+#hamburger-menu img {
+    display: block;
+    height: clamp(44px, 15vw, 3em);
+}
+
+:root:has(#navigation-menu-wrapper:checked) {
+    nav {
+        height: 100vh;
+    }
+
+    .toplevel-menu>ul>li {
+        display: flex;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -125,10 +187,6 @@ nav>a {
         justify-content: center;
     }
 
-    .image-header-logo {
-        width: 50%;
-    }
-
     .logoImageWrapper {
         margin-top: 1em;
     }
@@ -147,7 +205,7 @@ nav>a {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #open-information {
         display: none;
     }
@@ -157,7 +215,12 @@ nav>a {
         height: 4em;
     }
 
-    .toplevel-menu>a {
+    .toplevel-menu>ul>li {
         display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+        margin-left: auto;
     }
 }

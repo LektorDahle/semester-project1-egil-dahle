@@ -16,7 +16,7 @@
 
 main {
     display: grid;
-    margin: 5em clamp(10px, 20vw, 500px);
+    margin: 5em clamp(10px, 15vw, 500px);
     grid-template-areas:
         "main main"
         "second third"
