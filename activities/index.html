@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Science Museum - Homepage</title>
+    <link rel="shortcut icon" href="../images/logo/community-science-museum-logo.svg" type="image/x-icon">
+
+    <!-- CSS-styles -->
+    <link rel="stylesheet" href="../style/activities-main.css">
+    <link rel="stylesheet" href="../style/typography-and-color.css">
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+
+    <!-- Font embed codes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header style="background-image: url(../images/header-images/activities.webp);">
+        <div class="logoImageWrapper">
+            <a href="../"><img class="image-header-logo"
+                    src="../images/logo/community-science-museum-logo-with-name.svg"
+                    alt="Community Science Museum Logo"></a>
+        </div>
+        <div class="header-info">
+            <p id="open-information">Open Today <strong>09:00-18:00</strong></p>
+            <a class="about-us-url" href="../about-us/">
+                <img class="text-inline-image" src="../images/logo/community-science-museum-logo.svg" alt=" ">
+                About Us
+            </a>
+            <div class="select-wrapper">
+                <select id="handlinger" name="handlinger">
+                    <option value="English">English</option>
+                    <option value="Bokmål">Bokmål</option>
+                    <option value="Nynorsk">Nynorsk</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <nav class="toplevel-menu">
+        <div id="hamburger-menu">
+            <input id="navigation-menu-wrapper" type="checkbox">
+            <img src="../images/pictograms/hamburger.svg" alt="Hamburger icon">
+        </div>
+        <ul>
+            <li>
+                <a class="hidden-in-hamburger toplevel-explore-dropdown">Explore <img
+                        src="../images/pictograms/dropdown.svg" alt=" "></a>
+                <ul id="explore-dropdown">
+                    <li>
+                        <a href="../plan-your-visit/">Plan your visit</a>
+                    </li>
+                    <li>
+                        <a href="../activities/">Activities</a>
+                    </li>
+                    <li>
+                        <a href="../exhibition/">Exhibition</a>
+                    </li>
+                    <li>
+                        <a href="../tickets/">Tickets</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="../for-teachers/">For Teachers</a>
+            </li>
+            <li>
+                <a href="../for-researchers/">For Researchers</a>
+            </li>
+            <li>
+                <a href="../shop/">Shop</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <article class="card-wrapper card-green">
+            <img class="card-image large" src="../images/illustrations/person-looking-into-microscope.webp"
+                alt="Disected heart with a romantic heart-shape cut out on it">
+            <h1 class="title">Activites</h1>
+
+            <p>Step inside a world built for explorers of all ages, from stargazers and inventors to future
+                biologists, engineers, and dreamers. Here, science isn't something you read about-it's something you
+                touch, try, test, and experience.<br><br>
+                With hands-on exhibits, living stories of discovery, and a universe of ideas waiting to be uncovered,
+                the museum invites you to dive in, ask questions, and see the world with new eyes.</p>
+        </article>
+
+        <article class="card-wrapper card-blue">
+            <h2 class="title">Upcoming Activities</h2><br>
+            <a href="#visiting-proff">Visiting Proffesor of Aeronautics</a><br><br>
+            <a href="#night-museum">Night at the museum</a><br><br>
+            <a href="#energetica">Energetica Exhibition on Loan</a>
+        </article>
+
+        <article class="card-wrapper card-orange" id="visiting-proff">
+            <img class="card-image" src="../images/illustrations/probably-a-vacuum-chamber.webp">
+            <h2 class="title">Visitin Proffesor of Aeronautics</h2><br>
+            <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology
+                will be delivering 3 lectures on the development of aeronautics and where the future lies in this
+                exciting 'space'.<br><br>
+                Come join us and listen to Proffesor Widnall next thursday at 09:15, next friday at 10:15 or at 13:15.
+            </p>
+        </article>
+
+        <article class="card-wrapper card-blue" id="night-museum">
+            <img class="card-image" src="../images/illustrations/mammoth.webp">
+            <h2 class="title">Night at the museum</h2><br>
+            <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and
+                science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders
+                of science.<br><br>
+                When: Friday to Saturday week 12. Don’t let the opportunity to play Ben Stiller for a night run away!
+            </p>
+        </article>
+
+        <article class="card-wrapper card-green" id="energetica">
+            <img class="card-image" src="../images/illustrations/newtons-cradle.webp">
+            <h2 class="title">Energetica Exhibition on Loan</h2><br>
+            <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community
+                Science Museum.<br><br>
+                It's a series of installations that allow visitors to experience the power of the elements as we harness
+                them. From solar energy powering lighting, to 'Wind Island' that shows how turbines are able to use and
+                control wind to create power.<br><br>
+                At Community Science Museum week 18 through week 23.
+            </p>
+        </article>
+    </main>
+
+
+    <footer>
+        <div class="footer-lr" id="footer-left">
+            <div class="footer-lr-top">
+                <a href="../plan-your-visit/">Plan your visit</a>
+            </div>
+            <div class="sponsors">
+                <p>Our Sponsors:</p>
+                <img src="../images/sponsors/sustainable-science.webp" alt="Sponsor logo of sustainable science">
+                <img src="../images/sponsors/planet-planetorium.svg" alt="Sponsor logo of planet planetorium">
+            </div>
+        </div>
+        <div class="footer-middle" id="footer-middle">
+            <div>
+                <h2>Community Science Museum<br>"Explore together"</h2>
+            </div>
+            <img src="../images/logo/community-science-museum-logo.svg" alt="Community Science Museum Logo">
+        </div>
+        <div class="footer-lr" id="footer-right">
+            <div class="footer-lr-top">
+                <a href="../about-us/">About Us</a>
+            </div>
+            <div class="sponsors">
+                <img src="../images/sponsors/energy-eltech.svg" alt="Sponsor logo of energy eltech">
+                <img src="../images/sponsors/science-foundation.svg" alt="Sponsor logo of science foundation">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
