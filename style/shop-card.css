@@ -54,7 +54,6 @@ main {
 
 @media (max-width: 600px) {
     .shop-card {
-        grid-template-columns: 1fr;
         grid-template-rows: auto 1fr;
     }
 
