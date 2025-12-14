@@ -87,6 +87,9 @@ select {
 
 nav {
     background: var(--accent-primary-decoration);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 nav>ul {
@@ -107,6 +110,9 @@ nav>ul>li>a {
 }
 
 
+.toplevel-menu>ul>li {
+    position: relative;
+}
 
 .nav-wrapper>ul>li {
     z-index: 1;
@@ -129,7 +135,7 @@ input[type="checkbox"] {
 #hamburger-menu {
     display: none;
     position: relative;
-    padding:.5em;
+    padding: .5em;
 }
 
 #hamburger-menu img {
@@ -150,9 +156,6 @@ input[type="checkbox"] {
         flex-direction: column;
     }
 
-    header {
-        display: none;
-    }
 
     main {
         display: none;
@@ -161,6 +164,73 @@ input[type="checkbox"] {
     footer {
         display: none;
     }
+
+    nav>ul>li a {
+        display: flex;
+        height: 60px;
+        min-width: 10em;
+        align-items: center;
+        justify-content: left;
+        color: var(--accent-cta);
+        background: transparent;
+        padding: 0 1em;
+        border-bottom: .5px solid var(--text-color);
+        margin: .75em 0;
+    }
+
+    nav>ul>li:last-child a {
+        border-bottom: none;
+    }
+
+    .hidden-in-hamburger {
+        display: none;
+    }
+
+    #explore-dropdown {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    #explore-dropdown a {
+        padding: 0 1em;
+    }
+}
+
+#explore-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    padding: 1em .25em;
+    background-color: var(--background-color);
+    min-width: 10em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    z-index: 20;
+}
+
+#explore-dropdown a {
+    display: block;
+    padding: 1em 0;
+    border-bottom: .25px solid var(--text-color);
+}
+
+#explore-dropdown a:hover {
+    background: var(--accent-secondary-decoration-transperent);
+}
+
+#explore-dropdown li:last-child a {
+    border-bottom: none;
+}
+
+.toplevel-menu ul li:hover>#explore-dropdown,
+.toplevel-menu ul li:focus-within>#explore-dropdown {
+    display: block;
 }
 
 @media (max-width: 1400px) {
