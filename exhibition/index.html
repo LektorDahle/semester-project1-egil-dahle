@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Science Museum - Homepage</title>
+    <link rel="shortcut icon" href="../images/logo/community-science-museum-logo.svg" type="image/x-icon">
+
+    <!-- CSS-styles -->
+    <link rel="stylesheet" href="../style/activities-main.css">
+    <link rel="stylesheet" href="../style/typography-and-color.css">
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+
+    <!-- Font embed codes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header style="background-image: url(../images/header-images/activities.webp);">
+        <div class="logoImageWrapper">
+            <a href="../"><img class="image-header-logo"
+                    src="../images/logo/community-science-museum-logo-with-name.svg"
+                    alt="Community Science Museum Logo"></a>
+        </div>
+        <div class="header-info">
+            <p id="open-information">Open Today <strong>09:00-18:00</strong></p>
+            <a class="about-us-url" href="../about-us/">
+                <img class="text-inline-image" src="../images/logo/community-science-museum-logo.svg" alt=" ">
+                About Us
+            </a>
+            <div class="select-wrapper">
+                <select id="handlinger" name="handlinger">
+                    <option value="English">English</option>
+                    <option value="Bokmål">Bokmål</option>
+                    <option value="Nynorsk">Nynorsk</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <nav class="toplevel-menu">
+        <div id="hamburger-menu">
+            <input id="navigation-menu-wrapper" type="checkbox">
+            <img src="../images/pictograms/hamburger.svg" alt="Hamburger icon">
+        </div>
+        <ul>
+            <li>
+                <a class="hidden-in-hamburger toplevel-explore-dropdown">Explore <img
+                        src="../images/pictograms/dropdown.svg" alt=" "></a>
+                <ul id="explore-dropdown">
+                    <li>
+                        <a href="../plan-your-visit/">Plan your visit</a>
+                    </li>
+                    <li>
+                        <a href="../activities/">Activities</a>
+                    </li>
+                    <li>
+                        <a href="../exhibition/">Exhibition</a>
+                    </li>
+                    <li>
+                        <a href="../tickets/">Tickets</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="../for-teachers/">For Teachers</a>
+            </li>
+            <li>
+                <a href="../for-researchers/">For Researchers</a>
+            </li>
+            <li>
+                <a href="../shop/">Shop</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <article class="card-wrapper card-green" id="top">
+            <img class="card-image large" src="../images/illustrations/museum-exhibition.webp"
+                alt="Disected heart with a romantic heart-shape cut out on it">
+            <h1 class="title">Visit our different exhibitions</h1>
+
+            <a href="#cosmology">Cosmology - Explore the wonders of the cosmos.</a><br><br>
+            <a href="#evolution">Evolution - Discover the origins of life.</a><br><br>
+            <a href="#biology-medicin">Biology and Medicin - From microorganisms to the human body</a><br><br>
+            <a href="#robotics-ai">Robotics and AI - Is the future intelligent?</a><br><br>
+            <a href="#ecology">Ecology - Unpack the dangers of global warming.</a>
+        </article>
+
+        <article class="card-wrapper card-orange" id="cosmology">
+            <img class="card-image" src="../images/illustrations/the-moon.webp">
+            <h2 class="title">Cosmology</h2><br>
+            <p>Explore the wonders of our cosmos. Our fantastic exhibition, 'The Sky Above Us', explores the night sky
+                and what we can see and know about the universe around us. We'll locate the various constellations and
+                galaxies that can be seen and learn a bit about the early navigators who used the stars to travel
+                by.<br><br>
+                Follow the journey of our solar exploration: from early Arab traders, to Galileo's telescope, to the
+                latest exploration of the planets in our solar system.
+            </p>
+        </article>
+
+        <article class="card-wrapper card-blue" id="evolution">
+            <img class="card-image" src="../images/illustrations/zoology-skeleton.webp">
+            <h2 class="title">Evolution</h2><br>
+            <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we
+                come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework
+                for exploring and understanding our place in this world.<br><br>
+                Discover the origins of life on this planet and how the species we know today have evolved our time. You
+                can also take some time to meet a few of the creatures who didn't survive, including our Woolly Mammoth,
+                the Dodos, and a number of dinosaurs too.
+            </p>
+        </article>
+
+        <article class="card-wrapper card-green" id="biology-medicin">
+            <img class="card-image" src="../images/illustrations/micro-biology-white-blood-cells.webp">
+            <h2 class="title">Biology and Medicine</h2><br>
+            <p>From microorganisms to the human body, major breakthroughs in biology are offering us unique insights
+                into the great wonders of the tiny world.<br><br>
+                For many people their life expectancy is much longer and their quality of life much improved, thanks to
+                the growth of our understanding of medicine. Over a series of exhibits we explore the history of
+                medicine and take a look at some major breakthroughs including the discovery of penicillin and the first
+                heart transplant.<br><br>
+                Many of our great medicinal discoveries have come not only from the lab, but also from observing animals
+                in the wild. Often our fellow creatures have beat us to it.
+            </p>
+        </article>
+
+        <article class="card-wrapper card-orange" id="robotics-ai">
+            <img class="card-image" src="../images/illustrations/kid-with-vr-headset.webp">
+            <h2 class="title">Robotics and AI</h2><br>
+            <p>The information revolution is here and robotics and artificial intelligence are the science of the
+                future. From useful home applications of AI to industrial uses of robotics, the future is here. You can
+                even say hello and shake the hand of Rob the Robot.
+            </p>
+        </article>
+
+        <article class="card-wrapper card-blue" id="ecology">
+            <img class="card-image" src="../images/illustrations/plastic.webp">
+            <h2 class="title">Ecology</h2><br>
+            <p>As we learn more and more of the impact humans are having on the planet, the more important it becomes
+                that scientists explore how to create a sustainable future not just for humans but for the whole
+                planet.<br><br>
+                In our ecology section of the museum, we unpack the dangers we currently face including global warming,
+                extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
+                brighter future.
+            </p>
+        </article>
+        <div id="back-to-top"><a href="#top"> Back To top</a></div>
+    </main>
+
+
+    <footer>
+        <div class="footer-lr" id="footer-left">
+            <div class="footer-lr-top">
+                <a href="../plan-your-visit/">Plan your visit</a>
+            </div>
+            <div class="sponsors">
+                <p>Our Sponsors:</p>
+                <img src="../images/sponsors/sustainable-science.webp" alt="Sponsor logo of sustainable science">
+                <img src="../images/sponsors/planet-planetorium.svg" alt="Sponsor logo of planet planetorium">
+            </div>
+        </div>
+        <div class="footer-middle" id="footer-middle">
+            <div>
+                <h2>Community Science Museum<br>"Explore together"</h2>
+            </div>
+            <img src="../images/logo/community-science-museum-logo.svg" alt="Community Science Museum Logo">
+        </div>
+        <div class="footer-lr" id="footer-right">
+            <div class="footer-lr-top">
+                <a href="../about-us/">About Us</a>
+            </div>
+            <div class="sponsors">
+                <img src="../images/sponsors/energy-eltech.svg" alt="Sponsor logo of energy eltech">
+                <img src="../images/sponsors/science-foundation.svg" alt="Sponsor logo of science foundation">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
