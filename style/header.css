@@ -2,8 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-    background-image: url(../images/header-images/frontpage.webp);
     background-size: cover;
     background-position: center;
 
