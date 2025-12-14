@@ -1,20 +1,23 @@
 main {
     display: flex;
-    margin: 5em clamp(10px, 15vw, 500px);
+    margin: 5em clamp(10px, 20vw, 1000px);
 }
 
 .shop-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 1em;
+    gap: 2em;
     background: var(--accent-secondary-decoration);
     width: 100%;
-    padding: 1em;
+    padding: 3em;
 }
+
+
 
 .three-square {
     grid-column: span 3;
+    padding-left: 3em;
 }
 
 .three-by-three-square {
@@ -61,7 +64,7 @@ main {
         display: none;
     }
 
-        .shop-card>img {
+    .shop-card>img {
         width: 100%;
     }
 }
