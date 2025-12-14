@@ -200,6 +200,10 @@ input[type="checkbox"] {
     }
 }
 
+.toplevel-explore-dropdown>img {
+    padding: 0 0 0 .5em;
+}
+
 #explore-dropdown {
     display: none;
     position: absolute;

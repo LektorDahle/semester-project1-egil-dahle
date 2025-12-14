@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    margin: 5em clamp(10px, 15vw, 500px);
+}
+
+.shop-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1em;
+    background: var(--accent-secondary-decoration);
+    width: 100%;
+    padding: 1em;
+}
+
+.three-square {
+    grid-column: span 3;
+}
+
+.three-by-three-square {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.shop-card>img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .shop-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(3, 1fr);
+    }
+
+    .three-square {
+        grid-column: span 1;
+    }
+
+    .three-by-three-square {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .shop-card>img {
+        width: 80%;
+        justify-self: center;
+    }
+
+    .hidden-after-800px {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .shop-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .hidden-after-600px {
+        display: none;
+    }
+
+        .shop-card>img {
+        width: 100%;
+    }
+}
